@@ -11,3 +11,5 @@
   * [Validador de Cartão de Crédito](validador-bandeiras-cartao-de-credito/validate-cartao-credito/README.md)
 * [Azure Speech Studio e Language Studio](azure-speech-studio-e-language-studio/README.md)
   * [Criando Projeto com Azure AI Foundry Portal](azure-speech-studio-e-language-studio/criando-projeto-com-azure-ai-foundry-portal.md)
+* [Azure AI Search Index (UI)](azure-ai-search-index-ui/README.md)
+  * [README](azure-ai-search-index-ui/readme.md)
