@@ -20,7 +20,7 @@ Este é um simples programa em Java que realiza uma contagem entre dois números
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/JRomualdoDev/controle-fluxo.git
+copie https://github.com/JRomualdoDev/desafiosDIO/tree/main/trillha-java-basico/DesafioControleFluxo/controle-fluxo
 ```
 
 2. Acesse a pasta do projeto:
