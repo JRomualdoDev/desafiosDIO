@@ -31,6 +31,26 @@ public class Dev {
                 .sum();
     }
 
+    public Boolean avaliacaoConteudo(int nota, String titulo) {
+        Optional<Conteudo> conteudoOptional = this.getConteudoInscritos()
+                .stream()
+                .filter(cont -> cont.getTitulo().equalsIgnoreCase(titulo))
+                .findFirst();
+
+        if (conteudoOptional.isPresent()) {
+            Conteudo conteudo = conteudoOptional.get();
+
+            if (conteudo instanceof Curso) {
+                ((Curso) conteudo).setAvaliacao(nota);
+                return true;
+            } else if (conteudo instanceof Mentoria) {
+                ((Mentoria) conteudo).setAvaliacao(nota);
+                return true;
+            }
+        }
+        return false;
+    }
+
     public String getNome() {
         return nome;
     }

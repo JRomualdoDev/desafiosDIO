@@ -43,6 +43,8 @@ public class App {
         System.out.println("Conteúdo Concluidos: " + dev1.getConteudoConcluidos());
         System.out.println("XP: " + dev1.calcularTotalXp());
         System.out.println("--------------------------------");
+        dev1.avaliacaoConteudo(5, "Curso Java");
+        System.out.println("Conteúdos Inscritos: " + dev1.getConteudoInscritos());
 
         Dev dev2 = new Dev();
         dev2.setNome("Dev2");
@@ -54,6 +56,8 @@ public class App {
         System.out.println("Conteúdo Concluidos: " + dev2.getConteudoConcluidos());
         System.out.println("XP: " + dev2.calcularTotalXp());
         System.out.println("--------------------------------");
+        dev2.avaliacaoConteudo(5, "Curso Java");
+        System.out.println("Conteúdos Inscritos: " + dev2.getConteudoInscritos());
 
     }
 }
